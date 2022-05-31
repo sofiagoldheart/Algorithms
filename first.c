@@ -7,4 +7,5 @@
       scanf("%d",&y);
         r=x+y;
     printf("\n%d",r);
+    return 0;
 }
