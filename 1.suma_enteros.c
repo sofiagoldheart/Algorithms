@@ -6,6 +6,6 @@
       scanf("%d",&x);
       scanf("%d",&y);
         r=x+y;
-    printf("\n%d",r);
+    printf("La suma es igual a: \n%d",r);
     return 0;
 }
