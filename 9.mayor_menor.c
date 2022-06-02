@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main(){
-    int n=0;
+    float n=0;
     
-    scanf("%d",&n);
+    scanf("%f",&n);
     
     if (n>10){
-        printf("Es mayor a 10");
+        printf("El numero %f es mayor \n",n);
     }
     else{
-        printf("Es menor a 10");
+        printf("El numero %f es menor a 10",n);
     }
 }
