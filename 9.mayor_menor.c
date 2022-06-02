@@ -6,9 +6,9 @@ int main(){
     scanf("%f",&n);
     
     if (n>10){
-        printf("El numero %f es mayor \n",n);
+        printf("El numero %.2f es mayor \n",n);
     }
     else{
-        printf("El numero %f es menor a 10",n);
+        printf("El numero %.2f es menor a 10",n);
     }
 }
