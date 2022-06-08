@@ -9,5 +9,5 @@ int main() {
             scanf("%d",&n);
                 suma=suma+n;
     }
-    printf("%d\n", suma);
+    printf("El resultado total de la suma es: %d\n", suma);
 }
