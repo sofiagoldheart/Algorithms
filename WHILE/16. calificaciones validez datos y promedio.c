@@ -7,7 +7,7 @@ float n=0;
 for (int i=0; i<5; i++){
     printf("Ingresa una calificación:\n");
     scanf("%f",&n);
-  while (n<0 || n>10) {
+  while (n>0 || n<=10) {
     printf("Calificación no válida\n");
     printf("Ingresa otra calificación:\n");
     scanf("%f",&n);
