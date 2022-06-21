@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main(){
     int x; //Variable
@@ -8,3 +8,4 @@ int main(){
     int x[3][2]; //Matriz
     int x[2][3]; //Matriz transpuesta
 }
+/*
