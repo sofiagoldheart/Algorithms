@@ -19,7 +19,7 @@ int main(){
   return 0;
 }
 
-//O
+//O (más eficiente)
 #include <stdio.h>
 
 int main(){
