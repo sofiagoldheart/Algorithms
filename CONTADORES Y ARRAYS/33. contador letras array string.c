@@ -18,3 +18,20 @@ int main(){
     printf("Tu palabra tiene %d letras \n",cont);
   return 0;
 }
+
+//O
+#include <stdio.h>
+
+int main(){
+    char cadena[10];
+
+    printf("Ingresa una palabra:\n");
+    scanf("%s",cadena);
+
+  for (int i=0; i<10; i++){
+    if (cadena[i]=='\0'){
+    printf("%s tiene un tamaño de %d letras \n",cadena,i);
+  i=10;
+    }
+  }
+}
