@@ -1,28 +1,22 @@
 #include <stdio.h>
-#include <string.h>
- 
-int main()
-{
-    char s1[10],s2[10];  
-    int i,c=0;
- 
-    printf("Ingresa la primera cadena: ");
-    gets(s1);
-    printf("Ingresa la primera cadena: ");
-    gets(s2);
-    if(strlen(s1)==strlen(s2))
-    {
-    	for(i=0;s2[i]!='\0';i++)  
-        {
-        	if(s1[i]==s2[i])
-        	 c++;
- 	    }
- 	    if(c==i)
-          printf("Las cadenas son iguales");
-        else
-          printf("Las cadenas no son iguales");
+
+int main(){
+    char p1[10], p2[10];
+    printf("Inserte la primer palabra:");
+    scanf("%s", p1);
+    printf("Inserte la segunda palabra:");
+    scanf("%s", p2);
+
+    for(int i=0;i<10;i++){
+        if(p1[i]!=p2[i]){
+            printf("Las palabras no son iguales");
+            i=10;
+        }
+        else{
+            if(p1[i]=='\0'){
+                printf("Las palabras son iguales");
+                i=10;
+            }
+        }
     }
-    else
-     printf("Las cadenas no son iguales");
-    return 0;
 }
