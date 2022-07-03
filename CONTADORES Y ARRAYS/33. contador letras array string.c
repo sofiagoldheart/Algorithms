@@ -1,37 +1,19 @@
 #include <stdio.h>
 
 int main(){
-    char word[10];
-    int n=0, cont=0;
-
-    printf("Ingresa una palabra:\n");
-    scanf("%s",word);
-
-  for (int i=0; i<=n; i++){
-    if (word[i]!='\0'){
-      cont++;
-      n++;
+    char palabra[11];
+    int n=0, tam=0;
+    printf("Inserte una palabra:");
+    scanf("%s", palabra);
+    for(int i=0;i==n;i++){
+        if(palabra[i]!='\0'){
+            tam++;
+            n++;
+        }
+        else{
+            n--;
+        }
     }
-    else
-      n--;
-  }
-    printf("Tu palabra tiene %d letras \n",cont);
-  return 0;
-}
-
-//O (más eficiente)
-#include <stdio.h>
-
-int main(){
-    char cadena[10];
-
-    printf("Ingresa una palabra:\n");
-    scanf("%s",cadena);
-
-  for (int i=0; i<10; i++){
-    if (cadena[i]=='\0'){
-    printf("%s tiene un tamaño de %d letras \n",cadena,i);
-  i=10;
-    }
-  }
+    printf("La palabra es de %d letras", tam);
+    return 0;
 }
